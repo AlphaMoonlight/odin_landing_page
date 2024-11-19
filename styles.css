@@ -1,0 +1,114 @@
+header {
+    display: flex;
+    background-color: #1f2937;
+    font-family: "Roboto", sans-serif;
+    color: #F9FAF8;
+    justify-content: flex-end;
+    align-items: center;
+    margin: 0;
+}
+
+.logo {
+    font-size: 24px;
+    margin-left: 25px;
+    margin-right: auto;
+}
+
+.headerlinks {
+    font-size: 18px;
+    color: #E5E7EB;
+    margin-right: 25px;
+}
+
+.headerlinks a{
+    margin: 10px;
+}
+
+.awesome {
+    display: flex;
+    background-color: #1f2937;
+    font-family: "Roboto", sans-serif;
+    color: #F9FAF8;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0;
+    padding: 100px;
+}
+
+.hero {
+    flex-direction: column;
+}
+
+.awesome h2{
+    font-size: 48px;
+    font-weight: 900;
+}
+
+.awesome p{
+    width: 400px;
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+button {
+    font-size: 18px;
+    color: #E5E7EB;
+    background-color: #3882F6;
+    width: 100px;
+    border-radius: 5px;
+    padding: 5px;
+    border: 50px;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    font-family: "Roboto", sans-serif;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0;
+}
+
+.skills {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: 0;
+}
+
+article {
+    padding: 50px;
+}
+
+article p{
+    font-size: 18px;
+    color: gray;
+    padding-left: 75px;
+}
+
+img {
+    border-radius: 10px;
+}
+
+/* section {
+    display: flex;
+    flex-direction: column;
+    flex: auto;
+    align-items: center;
+}
+
+div {
+    display: flex;
+    flex-direction: row;
+    flex: auto;
+    align-items: center;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+
+
+.link {
+    margin-left: auto;
+} */
